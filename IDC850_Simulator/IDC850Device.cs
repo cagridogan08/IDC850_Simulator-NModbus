@@ -15,6 +15,7 @@ namespace IDC850_Simulator
         public byte deviceId=1;
         public string ip { get; set; }
         public int port { get; set; }
+        //
         public IDC850Device(string ip,int port)
         {
             this.ip = ip;
